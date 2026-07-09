@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Velora</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(180deg,#14062d,#23004d,#120028);color:#fff}
+header{display:flex;justify-content:space-between;padding:20px;background:#18052fcc;position:sticky;top:0}
+nav{display:flex;gap:20px}.logo{font-weight:bold;font-size:28px}.hero{text-align:center;padding:80px 20px}
+.badge{display:inline-block;padding:8px 16px;border-radius:20px;background:#2d125c}.hero h1{font-size:48px}
+.btn,.register{display:inline-block;background:#8c42ff;color:#fff;padding:14px 28px;border-radius:30px;text-decoration:none}
+.features{text-align:center;padding:50px 20px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;max-width:1000px;margin:auto}
+.card{background:#ffffff12;padding:20px;border-radius:16px}.icon{font-size:30px;margin-bottom:10px;color:#b96dff}
+.telegram{position:fixed;right:20px;bottom:20px;background:#229ED9;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;text-decoration:none;font-size:28px}
+#menu{display:none}@media(max-width:768px){#menu{display:block}nav{display:none;flex-direction:column}nav.active{display:flex}.hero h1{font-size:34px}}
+</style></head><body>
+<header><div class="logo"><i class="fa fa-chart-simple"></i> Velora</div><div id="menu"><i class="fa fa-bars"></i></div><nav id="nav"><a href="#" style="color:#fff">Home</a><a href="#" style="color:#fff">Features</a></nav></header>
+<section class="hero"><div class="badge">We Live In A Digital Age</div><h1>Create Wealth Through AI & Digital Opportunities</h1><p>Velora helps ordinary people earn online through AI tools and digital opportunities.</p><a class="btn" href="#">Start Earning</a></section>
+<section class="features"><h2>Everything You Need To Earn Online</h2><div class="grid">
+<div class="card"><div class="icon"><i class="fa fa-video"></i></div>Learn AI Video Creation And Earn</div>
+<div class="card"><div class="icon"><i class="fa fa-users"></i></div>Participate In Engagement Activities</div>
+<div class="card"><div class="icon"><i class="fa fa-list-check"></i></div>Complete Simple Tasks</div>
+<div class="card"><div class="icon"><i class="fa fa-wallet"></i></div>Earn Up To ₦20,000 Daily</div>
+<div class="card"><div class="icon"><i class="fa fa-futbol"></i></div>Join Football Activities</div>
+<div class="card"><div class="icon"><i class="fa fa-coins"></i></div>Build Multiple Income Streams</div>
+</div><br><a class="register" href="#">Register Now</a></section>
+<a class="telegram" href="#"><i class="fab fa-telegram-plane"></i></a>
+<script>
+document.getElementById('menu').onclick=()=>document.getElementById('nav').classList.toggle('active');
+</script>
+</body></html>
